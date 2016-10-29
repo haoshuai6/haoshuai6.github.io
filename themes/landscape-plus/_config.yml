@@ -1,7 +1,7 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
+  首页: /
+  归档: /archives
 rss: /atom.xml
 
 # Content
@@ -21,7 +21,7 @@ widgets:
 
 # Links
 links:
-  PHP博客: http://www.hsblogs.com
+  我的博客www.hsblogs.com: http://www.hsblogs.com
  
 
 # Miscellaneous
