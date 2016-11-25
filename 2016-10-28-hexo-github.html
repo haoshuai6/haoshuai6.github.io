@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hexo+Github Pages搭建个人博客[两个分支] | HSBLOG</title>
+  <title>Hexo+Github搭建个人博客[两个分支方便维护] | HSBLOG</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一个高逼格的博客– Hexo + github ,这个组合免费、静态化、部署方便！编写文章使用Markdown，这可真是，很吸引人啊！
+  <meta name="description" content="一个高逼格的博客 Hexo + github ,这个组合免费、静态化、部署方便！编写文章使用Markdown，这可真是，很吸引人啊！
 下面记录安装、搭建[Hexo + github]的过程
 整个过程分为三部分
 远端部分 github 建库
@@ -14,12 +14,12 @@
 关联，部署到 github
 
 Github建库
-登陆github, 新建Create a new repository, 命名必须是">
+登陆github, 新建Create a new repository, 命名必须是你">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo+Github Pages搭建个人博客[两个分支]">
+<meta property="og:title" content="Hexo+Github搭建个人博客[两个分支方便维护]">
 <meta property="og:url" content="https://haoshuai6.github.io/2016-10-28-hexo-github.html">
 <meta property="og:site_name" content="HSBLOG">
-<meta property="og:description" content="一个高逼格的博客– Hexo + github ,这个组合免费、静态化、部署方便！编写文章使用Markdown，这可真是，很吸引人啊！
+<meta property="og:description" content="一个高逼格的博客 Hexo + github ,这个组合免费、静态化、部署方便！编写文章使用Markdown，这可真是，很吸引人啊！
 下面记录安装、搭建[Hexo + github]的过程
 整个过程分为三部分
 远端部分 github 建库
@@ -27,11 +27,11 @@ Github建库
 关联，部署到 github
 
 Github建库
-登陆github, 新建Create a new repository, 命名必须是">
-<meta property="og:updated_time" content="2016-10-28T07:45:49.286Z">
+登陆github, 新建Create a new repository, 命名必须是你">
+<meta property="og:updated_time" content="2016-11-25T00:50:40.585Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo+Github Pages搭建个人博客[两个分支]">
-<meta name="twitter:description" content="一个高逼格的博客– Hexo + github ,这个组合免费、静态化、部署方便！编写文章使用Markdown，这可真是，很吸引人啊！
+<meta name="twitter:title" content="Hexo+Github搭建个人博客[两个分支方便维护]">
+<meta name="twitter:description" content="一个高逼格的博客 Hexo + github ,这个组合免费、静态化、部署方便！编写文章使用Markdown，这可真是，很吸引人啊！
 下面记录安装、搭建[Hexo + github]的过程
 整个过程分为三部分
 远端部分 github 建库
@@ -39,12 +39,12 @@ Github建库
 关联，部署到 github
 
 Github建库
-登陆github, 新建Create a new repository, 命名必须是">
+登陆github, 新建Create a new repository, 命名必须是你">
   
     <link rel="alternative" href="/atom.xml" title="HSBLOG" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
   
   <link rel="stylesheet" href="/css/style.css">
   <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
@@ -70,9 +70,9 @@ Github建库
       <nav id="main-nav">
         <a id="main-nav-toggle" class="nav-icon"></a>
         
-          <a class="main-nav-link" href="/">Home</a>
+          <a class="main-nav-link" href="/">首页</a>
         
-          <a class="main-nav-link" href="/archives">Archives</a>
+          <a class="main-nav-link" href="/archives">归档</a>
         
       </nav>
       <nav id="sub-nav">
@@ -109,7 +109,7 @@ Github建库
         
   
     <h1 class="article-title" itemprop="name">
-      Hexo+Github Pages搭建个人博客[两个分支]
+      Hexo+Github搭建个人博客[两个分支方便维护]
     </h1>
   
 
@@ -117,7 +117,7 @@ Github建库
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>一个高逼格的博客– <code>Hexo + github</code> ,这个组合免费、静态化、部署方便！编写文章使用Markdown，这可真是，很吸引人啊！</p>
+        <p>一个高逼格的博客 <code>Hexo + github</code> ,这个组合免费、静态化、部署方便！编写文章使用Markdown，这可真是，很吸引人啊！</p>
 <p>下面记录安装、搭建[Hexo + github]的过程</p>
 <h2 id="整个过程分为三部分"><a href="#整个过程分为三部分" class="headerlink" title="整个过程分为三部分"></a>整个过程分为三部分</h2><ol>
 <li>远端部分 <code>github</code> 建库</li>
@@ -167,25 +167,55 @@ Github建库
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Deployment</span></div><div class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></div><div class="line">deploy:</div><div class="line">  <span class="built_in">type</span>: git</div><div class="line">  repo: https://github.com/haoshuai6/haoshuai6.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
 <p>为了能够使Hexo部署到GitHub上，需要安装一个插件，避免出现 <code>ERROR Deployer not found : git</code>错误</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
+<p>到这里先 <code>STOP</code> 一会，</p>
+<h5 id="思考一个问题："><a href="#思考一个问题：" class="headerlink" title="思考一个问题："></a>思考一个问题：</h5><blockquote>
+<p>即当我重装电脑，或者在别的电脑，想要发布，修改文章时候，无法使用现在搭建好的hexo环境？</p>
+<p>想法 ：用 <code>github</code> 两个分支，一个用来存放Hexo网站的源文件，一个用来发布网站(即hexo最后部署的静态文件)。</p>
+<p>参考文章： <a href="http://crazymilk.github.io/2015/12/28/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#more" target="_blank" rel="external">http://crazymilk.github.io/2015/12/28/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#more</a></p>
+</blockquote>
+<hr>
+<h6 id="20161029-补充两个分支实现方法："><a href="#20161029-补充两个分支实现方法：" class="headerlink" title="20161029 补充两个分支实现方法："></a>20161029 补充两个分支实现方法：</h6><p>那么，目标是有两个分支：</p>
+<blockquote>
+<p>master分支：用来提交部署 <code>hexo</code> 在本地编译好的静态文件。即：博客的显示的静态文件</p>
+<p>source分支：用来备份、存储 <code>hexo</code> 在本地的原始程序文件。即：<code>hexo</code>博客的源文件</p>
+</blockquote>
+<p>如何实现呢：</p>
+<blockquote>
+<p>如果这么操作: 建好库之后，<code>clone</code> 到本地，然后在该文件夹下用hexo搭建，可以这样有一个问题：</p>
+<p>当你<code>clone</code>到本地后，再进行<code>hexo init</code> 时，刚才<code>clone</code>的仓库版本控制信息会丢失，造成无法<code>push</code></p>
+</blockquote>
+<p>所以我是这么弄的 <code>[道行尚浅，还没想到好办法]</code>    </p>
+<ul>
+<li><code>clone</code> 库到本地一个空文件夹，那么文件夹名字一定是 <code>username</code>.github.io </li>
+<li>建立分支<code>source</code>，切换分支到<code>source</code>，将分支推送到远端，在<code>github</code> 修改默认分支为 <code>source</code> </li>
+<li>将刚才 <code>hexo</code> 本地生成博客的文件夹下的所有文件，都拷贝到，<code>username</code>.github.io 文件夹下[在分支<code>source</code>下操作]</li>
+<li>或[<code>username</code>.github.io下的所有文件拷贝到，刚才 <code>hexo</code> 本地生成博客的文件夹下]，再用<code>github</code>客户端,<code>Add</code>本地库 </li>
+</ul>
 <p>然后，执行下列指令即可完成部署：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>之后，访问：<code>username</code>.github.io 浏览</p>
 <hr>
+<h6 id="两个分支如何维护呢？"><a href="#两个分支如何维护呢？" class="headerlink" title="两个分支如何维护呢？"></a>两个分支如何维护呢？</h6><p>我在公司电脑，搭建的<code>hexo</code>博客，并且部署到了<code>github</code>，回到家里我想修改文章，家里电脑刚新装<code>git</code>和<code>node</code></p>
+<ul>
+<li>因为在github有了两个分支，默认分支为<code>source</code> </li>
+<li><code>clone</code>到本地，<code>hexo</code> 千万不要执行 <strong><code>hexo init</code></strong>  </li>
+<li>直接 <code>hexo server</code> 有可能会<code>ERROR</code>提示  <strong><code>npm install hexo --save</code></strong> ，按照即可 <code>npm install</code></li>
+<li>然后就可以正常 <code>hexo server</code>啦，</li>
+<li>然后就可以正常 编辑啦</li>
+<li>然后就可以正常 <code>hexo clean</code> 和 <code>hexo g</code> 和  <code>hexo d</code> 啦</li>
+</ul>
+<hr>
 <p>hexo常用命令(简写):</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">hexo n <span class="string">"我的博客"</span> == hexo new <span class="string">"我的博客"</span> <span class="comment">#新建文章</span></div><div class="line">hexo p == hexo publish</div><div class="line">hexo g == hexo generate<span class="comment">#生成静态网页</span></div><div class="line">hexo s == hexo server <span class="comment">#启动服务预览</span></div><div class="line">hexo d == hexo deploy<span class="comment">#部署</span></div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">hexo n <span class="string">"我的博客"</span> == hexo new <span class="string">"我的博客"</span> <span class="comment">#新建文章</span></div><div class="line">hexo p == hexo publish <span class="comment">#发布草稿</span></div><div class="line">hexo g == hexo generate <span class="comment">#生成静态网页</span></div><div class="line">hexo s == hexo server <span class="comment">#启动服务预览</span></div><div class="line">hexo d == hexo deploy <span class="comment">#部署</span></div></pre></td></tr></table></figure>
 <p>更多命令：<a href="https://segmentfault.com/a/1190000002632530" target="_blank" rel="external">https://segmentfault.com/a/1190000002632530</a></p>
-<h5 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h5><blockquote>
-<p>建好库之后，<code>clone</code> 到本地，然后用hexo搭建，可以这样有一个问题：<br>当你<code>clone</code>到本地后，再进行<code>hexo init</code> 时，刚才<code>clone</code>的仓库版本控制信息会丢失，造成无法<code>push</code></p>
-<p>即当我重装电脑，或者在别的电脑，发布，修改文章时候，无法使用现在搭建好的heox环境</p>
-</blockquote>
-<p>想法 ：有两个分支，一个用来存放Hexo网站的文件，一个用来发布网站。</p>
-<p>参考文章： <a href="http://crazymilk.github.io/2015/12/28/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#more" target="_blank" rel="external">http://crazymilk.github.io/2015/12/28/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#more</a></p>
+<hr>
+<p><code>hexo</code> 支持 markdown格式，有空还得去学习下 markdown</p>
 
       
     </div>
     <footer class="article-footer">
       
-        <a data-url="https://haoshuai6.github.io/2016-10-28-hexo-github.html" data-id="ciutkz055000184gyh1ytshi9" class="article-share-link" data-share="baidu" data-title="Hexo+Github Pages搭建个人博客[两个分支]">分享到</a>
+        <a data-url="https://haoshuai6.github.io/2016-10-28-hexo-github.html" data-id="civx3w0la0003yogylxrvcb1d" class="article-share-link" data-share="baidu" data-title="Hexo+Github搭建个人博客[两个分支方便维护]">分享到</a>
       
 
       
@@ -197,12 +227,26 @@ Github建库
   </div>
   
     
+<nav id="article-nav">
+  
+    <a href="/2016-11-25-Hexo-github-cname.html" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <div class="article-nav-title">
+        
+          Hexo+github绑定域名(主或二级)
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
   
 </article>
 
 
   <section id="comments">
-    <div id="ds-thread" class="ds-thread" data-thread-key="2016-10-28-hexo-github.html" data-title="Hexo+Github Pages搭建个人博客[两个分支]" data-url="https://haoshuai6.github.io/2016-10-28-hexo-github.html"></div>
+    <div id="ds-thread" class="ds-thread" data-thread-key="2016-10-28-hexo-github.html" data-title="Hexo+Github搭建个人博客[两个分支方便维护]" data-url="https://haoshuai6.github.io/2016-10-28-hexo-github.html"></div>
   </section>
 </section>
       
@@ -218,7 +262,7 @@ Github建库
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">十月 2016</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">十一月 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">十月 2016</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -230,7 +274,15 @@ Github建库
       <ul>
         
           <li>
-            <a href="/2016-10-28-hexo-github.html">Hexo+Github Pages搭建个人博客[两个分支]</a>
+            <a href="/2016-11-25-www-host.html">如何去掉WWW，使用顶级域名访问网站</a>
+          </li>
+        
+          <li>
+            <a href="/2016-11-25-Hexo-github-cname.html">Hexo+github绑定域名(主或二级)</a>
+          </li>
+        
+          <li>
+            <a href="/2016-10-28-hexo-github.html">Hexo+Github搭建个人博客[两个分支方便维护]</a>
           </li>
         
       </ul>
@@ -245,7 +297,11 @@ Github建库
       <ul>
         
           <li>
-            <a href="http://www.hsblogs.com" target="_blank">PHP博客</a>
+            <a href="http://www.hsblogs.com" target="_blank">我的博客www.hsblogs.com</a>
+          </li>
+        
+          <li>
+            <a href="https://rongchanghai.github.io/" target="_blank">前端技术博客rongchanghai.github.io</a>
           </li>
         
       </ul>
@@ -270,9 +326,9 @@ Github建库
   </div>
   <nav id="mobile-nav">
   
-    <a href="/" class="mobile-nav-link">Home</a>
+    <a href="/" class="mobile-nav-link">首页</a>
   
-    <a href="/archives" class="mobile-nav-link">Archives</a>
+    <a href="/archives" class="mobile-nav-link">归档</a>
   
 </nav>
   <!-- totop start -->
